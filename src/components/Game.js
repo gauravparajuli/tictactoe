@@ -1,5 +1,23 @@
 import React from 'react'
+import Board from './Board'
 
-const Game = () => <div>This is a tic tac toe game</div>
+const Game = () => {
+
+    const handleClick = () => {
+
+    }
+
+    const jumpTo = () => {
+
+    }
+
+    const renderMoves = () => {
+
+    }
+
+    return (
+        <Board onClick={handleClick} />
+    )
+}
 
 export default Game
